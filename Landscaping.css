@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+
+body, html {
+  height: 100%;
+}
+.header {
+  display: flex;
+  /*background-image: url("Lawn.jpeg");*/
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  /*margin: 1rem;*/
+  justify-content: center;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header h1 {
+  font-size: 6rem;
+  margin-top: 2%;
+  position: absolute;
+  color: green;
+}
+
+.header h2 {
+  font-size: 3rem;
+  margin-top: 20%;
+  position: absolute;
+  color: green;
+}
+.header h3 {
+  font-size: 3rem;
+  margin-top: 30%;
+  position: absolute;
+  color: green;
+}
+
+.spring {
+    background-image: url("spring.jpeg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.spring h1 {
+  font-size: 6rem;
+  margin-top: 2%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.spring h2 {
+  font-size: 3rem;
+  margin-top: 20%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.summer {
+    background-image: url("lawn.jpeg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.summer h1 {
+  font-size: 6rem;
+  margin-top: 2%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.summer h2 {
+  font-size: 3rem;
+  margin-top: 20%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.fall {
+    background-image: url("fall.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.fall h1 {
+  font-size: 6rem;
+  margin-top: 2%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.fall h2 {
+  font-size: 3rem;
+  margin-top: 20%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .1);
+}
+
+.winter {
+    background-image: url("winter.jpeg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.winter h1 {
+  font-size: 6rem;
+  margin-top: 2%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .02);
+}
+
+.winter h2 {
+  font-size: 3rem;
+  margin-top: 20%;
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, .02);
+}
+
+.footer {
+  display: flex;
+  background-color: yellow;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+
+}
+
+.footer h1 {
+  font-size: 6rem;
+  margin-top: 1%;
+  position: absolute;
+  color: green;
+}
+
+.footer p {
+  margin: 11% 3%;
+  color: green;
+  position: absolute;
+  font-size: 1.7rem;
+}
+
+.footer h3 {
+  font-size: 3rem;
+  margin-top: 30%;
+  position: absolute;
+  color: green;
+}
+
+.footer a {
+  font-size: 2rem;
+  margin-top: 38%;
+  position: absolute;
+  color: green;
+}
+ 
