@@ -74,7 +74,7 @@ body, html {
 }
 
 .summer {
-    background-image: url("lawn.jpeg");
+    background-image: url("Lawn.jpeg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
@@ -101,7 +101,7 @@ body, html {
 }
 
 .fall {
-    background-image: url("fall.jpg");
+    background-image: url("Fall.jpg");
     height: 100%; 
     background-attachment: fixed;
     background-position: center;
