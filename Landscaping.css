@@ -11,36 +11,33 @@ body, html {
 }
 .header {
   display: flex;
-  /*background-image: url("Lawn.jpeg");*/
   background-color: yellow;
   height: 100vh;
   width: 100vw;
   color: white;
-  /*margin: 1rem;*/
   justify-content: center;
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .header h1 {
-  font-size: 6rem;
-  margin-top: 2%;
-  position: absolute;
+  font-size: 9vw;
+  margin: 2% auto;
+  position: relative;
   color: green;
 }
 
 .header h2 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 20%;
   position: absolute;
   color: green;
 }
 .header h3 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 30%;
   position: absolute;
   color: green;
@@ -58,7 +55,7 @@ body, html {
 }
 
 .spring h1 {
-  font-size: 6rem;
+  font-size: 9vw;
   margin-top: 2%;
   position: absolute;
   color: white;
@@ -66,7 +63,7 @@ body, html {
 }
 
 .spring h2 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 20%;
   position: absolute;
   color: white;
@@ -85,7 +82,7 @@ body, html {
 }
 
 .summer h1 {
-  font-size: 6rem;
+  font-size: 9vw;
   margin-top: 2%;
   position: absolute;
   color: white;
@@ -93,7 +90,7 @@ body, html {
 }
 
 .summer h2 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 20%;
   position: absolute;
   color: white;
@@ -112,7 +109,7 @@ body, html {
 }
 
 .fall h1 {
-  font-size: 6rem;
+  font-size: 9vw;
   margin-top: 2%;
   position: absolute;
   color: white;
@@ -120,7 +117,7 @@ body, html {
 }
 
 .fall h2 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 20%;
   position: absolute;
   color: white;
@@ -139,7 +136,7 @@ body, html {
 }
 
 .winter h1 {
-  font-size: 6rem;
+  font-size: 9vw;
   margin-top: 2%;
   position: absolute;
   color: white;
@@ -147,14 +144,14 @@ body, html {
 }
 
 .winter h2 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin-top: 20%;
   position: absolute;
   color: white;
   background: rgba(0, 0, 0, .02);
 }
 
-.footer {
+.message {
   display: flex;
   background-color: yellow;
   height: 100vh;
@@ -169,31 +166,49 @@ body, html {
 
 }
 
-.footer h1 {
-  font-size: 6rem;
+.message h1 {
+  font-size: 9vw;
   margin-top: 1%;
   position: absolute;
   color: green;
 }
 
-.footer p {
+.message p {
   margin: 11% 3%;
   color: green;
   position: absolute;
-  font-size: 1.7rem;
+  font-size: 3vw;
 }
 
-.footer h3 {
-  font-size: 3rem;
-  margin-top: 30%;
+.footer {
+  display: flex;
+  background-color: yellow;
+  height: 50vh;
+  width: 100vw;
+  color: orange;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.footer h3 a{
+  font-size: 4vw;
+  margin-top: 10%;
+  margin-left: -35%;
   position: absolute;
   color: green;
 }
 
 .footer a {
-  font-size: 2rem;
-  margin-top: 38%;
+  font-size: 5vw;
+  margin-top: 30%;
   position: absolute;
   color: green;
 }
- 
+
+a {
+  text-decoration: none;
+  color: green;
+} 
